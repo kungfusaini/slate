@@ -1,0 +1,16 @@
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+logs/
+
+# Tasker export files (keep source, not exports)
+*.xml
+
+# Termux
+termux/.termux/
+termux/storage/
+
+# OS generated
+.DS_Store
+Thumbs.db
