@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <profile name="Obsidian Sync Close" description="Sync vault on Obsidian app close" version="1">
     <cdate>2026-03-15 13:45:00 GMT</cdate>
     <edate>2026-03-15 13:45:00 GMT</edate>
@@ -43,3 +44,39 @@
         <arg15>0</arg15>
     </task>
 </profile>
+=======
+<TaskerData sr="" dvi="1">
+    <Profile sr="prof2" ve="2">
+        <cdate>1710468490829</cdate>
+        <edate>1710468490829</edate>
+        <flags>0</flags>
+        <id>3</id>
+        <nme>Obsidian App Closed</nme>
+        <Restriction sr="rstr2" ve="2">
+            <App sr="app2" ve="2">
+                <package>is.xyz.obsidian</package>
+            </App>
+        </Restriction>
+        <Event sr="evnt0" ve="2">
+            <code>1000</code>
+            <label>App Removed from Recent</label>
+            <Str sr="arg0" ve="3">is.xyz.obsidian</Str>
+        </Event>
+        <Task sr="task2" ve="2">
+            <cdate>1710468490829</cdate>
+            <edate>1710468490829</edate>
+            <flags>0</flags>
+            <id>4</id>
+            <nme>Sync Push Obsidian</nme>
+            <Action sr="act0" ve="2">
+                <code>121</code>
+                <label>Run Shell</label>
+                <Str sr="arg0" ve="3">/data/data/com.termux/files/usr/bin/bash</Str>
+                <Str sr="arg1" ve="3">/storage/emulated/0/Documents/obsidian-sync-push.sh</Str>
+                <Int sr="arg2" ve="2">0</Int>
+                <Int sr="arg3" ve="2">0</Int>
+            </Action>
+        </Task>
+    </Profile>
+</TaskerData>
+>>>>>>> origin/main
