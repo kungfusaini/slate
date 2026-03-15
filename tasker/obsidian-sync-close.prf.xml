@@ -1,50 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<profile name="Obsidian Sync Close" description="Sync vault on Obsidian app close" version="1">
-    <cdate>2026-03-15 13:45:00 GMT</cdate>
-    <edate>2026-03-15 13:45:00 GMT</edate>
-    <flags>0</flags>
-    <state>0</state>
-    <event>
-        <code>3</code>
-        <arg0>net.rubygrapefruit.platform.linux</arg0>
-        <arg1>com.ritolaus.applis.obsidian</arg1>
-        <arg2>obsidian</arg2>
-        <arg3>obsidian</arg3>
-        <arg4>0</arg4>
-        <arg5>0</arg5>
-        <arg6>0</arg6>
-        <arg7>0</arg7>
-        <arg8>0</arg8>
-        <arg9>0</arg9>
-        <arg10>0</arg10>
-        <arg11>0</arg11>
-        <arg12>0</arg12>
-        <arg13>0</arg13>
-        <arg14>0</arg14>
-        <arg15>0</arg15>
-    </event>
-    <task>
-        <code>127</code>
-        <arg0>termux</arg0>
-        <arg1>bash</arg1>
-        <arg2>-c</arg2>
-        <arg3>~/slate/termux/obsidian-sync-push.sh</arg3>
-        <arg4>0</arg4>
-        <arg5>0</arg5>
-        <arg6>0</arg6>
-        <arg7>0</arg7>
-        <arg8>0</arg8>
-        <arg9>0</arg9>
-        <arg10>0</arg10>
-        <arg11>0</arg11>
-        <arg12>0</arg12>
-        <arg13>0</arg13>
-        <arg14>0</arg14>
-        <arg15>0</arg15>
-    </task>
-</profile>
-=======
 <TaskerData sr="" dvi="1">
     <Profile sr="prof2" ve="2">
         <cdate>1710468490829</cdate>
@@ -72,11 +26,10 @@
                 <code>121</code>
                 <label>Run Shell</label>
                 <Str sr="arg0" ve="3">/data/data/com.termux/files/usr/bin/bash</Str>
-                <Str sr="arg1" ve="3">/storage/emulated/0/Documents/obsidian-sync-push.sh</Str>
+                <Str sr="arg1" ve="3">~/slate/termux/obsidian-sync-push.sh</Str>
                 <Int sr="arg2" ve="2">0</Int>
                 <Int sr="arg3" ve="2">0</Int>
             </Action>
         </Task>
     </Profile>
 </TaskerData>
->>>>>>> origin/main
