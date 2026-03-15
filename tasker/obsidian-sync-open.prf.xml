@@ -21,7 +21,7 @@
                 <code>121</code>
                 <label>Run Shell</label>
                 <Str sr="arg0" ve="3">/data/data/com.termux/files/usr/bin/bash</Str>
-                <Str sr="arg1" ve="3">~/slate/termux/obsidian-sync-pull.sh</Str>
+                <Str sr="arg1" ve="3">/data/data/com.termux/files/home/slate/termux/obsidian-sync-pull.sh</Str>
                 <Int sr="arg2" ve="2">0</Int>
                 <Int sr="arg3" ve="2">0</Int>
             </Action>
