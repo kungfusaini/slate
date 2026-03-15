@@ -5,9 +5,9 @@ tmp/
 logs/
 
 # Tasker export files (keep source, not exports)
-# But allow source profiles in tasker directory
-tasker/*.xml
-!tasker/
+# Ignore all XML files except those in tasker directory
+*.xml
+!tasker/*.xml
 
 # Termux
 termux/.termux/
